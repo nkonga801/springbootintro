@@ -27,7 +27,7 @@ Dependency Injection ```@Autowired```
 @SpringBootApplication
 //@Configuration. (Application Scope or Global)
 //@EnableAutoConfiguration
-//@ComponentScan({“com.abc](mailto://@ComponentScan(%7b“com.abc)”, “com.def”})
+//@ComponentScan({“com.abc", “com.def”})
 public class SpringBeansApplication {
   public static void main(String[] args) {
     ApplicationContext ctx = SpringApplication.run(SpringBeansApplication.class, args);
