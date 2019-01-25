@@ -72,16 +72,18 @@ System.out.println( ctx.getBean(“user”).toString() );
 private String pageControllerMsg;
 ```
 **Mapping Properties to POJOs**
-@EnableConfigurationProperties. – main class
-@ConfigurationProperties.  - POJO
-Type Safe
-IDE Support
-Validation (@Valid)
+
+@EnableConfigurationProperties. – main class\
+@ConfigurationProperties.  - POJO\
+Type Safe\
+IDE Support\
+Validation (@Valid)\
 Note: Mapping Configuration to POJOs.
 
 **Auto Configuration**
-@SpringBootApplication (includes @EnableAutoConfiguration)
-@EnableAutoConfiguration (exclude={DataSourceAutoConfiguration.class})
+
+@SpringBootApplication (includes @EnableAutoConfiguration) .         
+@EnableAutoConfiguration (exclude={DataSourceAutoConfiguration.class}) .  
 
 How Auto Configuration works
 - Where to find them: /META-INF/spring.factories
