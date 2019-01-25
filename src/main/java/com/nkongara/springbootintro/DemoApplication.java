@@ -10,6 +10,10 @@ import org.springframework.context.annotation.Bean;
 import java.util.Arrays;
 
 @SpringBootApplication
+//@Configuration // Application Scope or Global.
+//@EnableAutoConfiguration
+//@ComponentScan({“com.abc”, “com.def”})
+
 public class DemoApplication {
 
     // Beans created here are application scope.
